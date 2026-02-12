@@ -1,26 +1,45 @@
-[
-  {
-    "appid": "437",
-    "packname": "com.dangbei.market",
-    "appico": "https://你的地址/icon1.png",
-    "downurl": "https://你的地址/app1.apk",
-    "version": "20.2.0",
-    "barben": "4"
-  },
-  {
-    "appid": "2111",
-    "packname": "com.huawei.market",
-    "appico": "https://你的地址/icon2.png",
-    "downurl": "https://你的地址/app2.apk",
-    "version": "13.1.3",
-    "barben": "12"
-  },
-  {
-    "appid": "406",
-    "packname": "com.dangbei.domestic",
-    "appico": "https://你的地址/icon3.png",
-    "downurl": "https://你的地址/app3.apk",
-    "version": "2.1.1",
-    "barben": "7"
-  }
-]
+{
+  "wallpaper": "https://pic.netbian.com/uploads/allimg/230402/221200-16804447209139.jpg",
+  "logo": "https://pic.netbian.com/uploads/allimg/230402/221200-16804447209139.jpg",
+  "spider": "1",
+  "sites": [
+    {
+      "key": "csp_555",
+      "name": "555影视",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "{\"homeUrl\":\"https://www.555zy.cc\",\"playUrl\":\"https://jx.qqsuu.cn/vod/play/id/\\{id\\}/sid/\\{sid\\}/nid/\\{nid\\}.html\"}"
+    },
+    {
+      "key": "csp_75",
+      "name": "75影视",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 1,
+      "quickSearch": 1,
+      "ext": "{\"homeUrl\":\"https://www.75sy.cc\",\"playUrl\":\"https://jx.qqsuu.cn/vod/play/id/\\{id\\}/sid/\\{sid\\}/nid/\\{nid\}.html\"}"
+    }
+  ],
+  "parses": [
+    {
+      "name": "通用解析",
+      "url": "https://jx.qqsuu.cn/?url="
+    },
+    {
+      "name": "备用解析",
+      "url": "https://jx.123jx.top/?url="
+    }
+  ],
+  "lives": [
+    {
+      "name": "央视卫视",
+      "url": "https://raw.githubusercontent.com/ssestm/TVBox/live/live.txt"
+    }
+  ],
+  "doh": "",
+  "update": true,
+  "updateUrl": ""
+}
+
